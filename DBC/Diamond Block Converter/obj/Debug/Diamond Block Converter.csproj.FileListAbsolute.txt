@@ -1,0 +1,10 @@
+C:\Users\defom\source\repos\DBC\Diamond Block Converter\bin\Debug\Diamond Block Converter.exe.config
+C:\Users\defom\source\repos\DBC\Diamond Block Converter\bin\Debug\Diamond Block Converter.exe
+C:\Users\defom\source\repos\DBC\Diamond Block Converter\bin\Debug\Diamond Block Converter.pdb
+C:\Users\defom\source\repos\DBC\Diamond Block Converter\obj\Debug\Diamond Block Converter.csproj.AssemblyReference.cache
+C:\Users\defom\source\repos\DBC\Diamond Block Converter\obj\Debug\Diamond_Block_Converter.Form1.resources
+C:\Users\defom\source\repos\DBC\Diamond Block Converter\obj\Debug\Diamond_Block_Converter.Properties.Resources.resources
+C:\Users\defom\source\repos\DBC\Diamond Block Converter\obj\Debug\Diamond Block Converter.csproj.GenerateResource.cache
+C:\Users\defom\source\repos\DBC\Diamond Block Converter\obj\Debug\Diamond Block Converter.csproj.CoreCompileInputs.cache
+C:\Users\defom\source\repos\DBC\Diamond Block Converter\obj\Debug\Diamond Block Converter.exe
+C:\Users\defom\source\repos\DBC\Diamond Block Converter\obj\Debug\Diamond Block Converter.pdb
