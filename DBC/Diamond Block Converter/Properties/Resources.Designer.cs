@@ -153,16 +153,6 @@ namespace Diamond_Block_Converter.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Double_Chest {
-            get {
-                object obj = ResourceManager.GetObject("Double_Chest", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap Shalker {
             get {
                 object obj = ResourceManager.GetObject("Shalker", resourceCulture);

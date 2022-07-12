@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Drawing.Text;
 
 namespace Diamond_Block_Converter
 {
@@ -16,13 +17,44 @@ namespace Diamond_Block_Converter
         {
             InitializeComponent();
 
-            ClientSize = new Size(560, 510);
+           // ClientSize = new Size(560, 510);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             this.Text = "Diamond Block Converter";
 
+
+
+            LoadFont();
+            button0.Font = MyFont12;
+            button1.Font = MyFont12;
+            button2.Font = MyFont12;
+            button3.Font = MyFont12;
+            button4.Font = MyFont12;
+            button5.Font = MyFont12;
+            button6.Font = MyFont12;
+            button7.Font = MyFont12;
+            button8.Font = MyFont12;
+            button9.Font = MyFont12;
+            buttonС.Font = MyFont12;
+            button10.Font = MyFont26;
+            label2.Font = MyFont12;
+            label3.Font = MyFont16;
+
         }
 
+        Font MyFont12;
+        Font MyFont16;
+        Font MyFont26;
+        
 
+
+        private void LoadFont()
+        {
+            PrivateFontCollection custom_font = new PrivateFontCollection();
+            custom_font.AddFontFile("Minecraft_Title_Cyrillic.ttf");
+            MyFont12 = new Font(custom_font.Families[0], 12);
+            MyFont16 = new Font(custom_font.Families[0], 16);
+            MyFont26 = new Font(custom_font.Families[0], 26);
+        }
 
         private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
         {
@@ -48,7 +80,7 @@ namespace Diamond_Block_Converter
                 textBox3.Text = B.Text;
             else if (textBox3.Text.Length == 8)
             {
-                
+
             }
             else
                 textBox3.Text = textBox3.Text + B.Text;
@@ -79,11 +111,12 @@ namespace Diamond_Block_Converter
         {
             if (Convert.ToInt32(textBox3.Text) != 0)
             {
-                textBox1.Text = ((Convert.ToInt32(textBox3.Text) / 9).ToString());
-                textBox2.Text = ((Convert.ToInt32(textBox3.Text) % 9).ToString());
-                textBox4.Text = ((Convert.ToInt32(textBox1.Text) / 64).ToString());
-                textBox5.Text = ((Convert.ToInt32(textBox3.Text) / 64).ToString());
-                textBox6.Text = ((Convert.ToInt32(textBox1.Text) / 1728).ToString());
+                textBox1.Text = ((Convert.ToInt32(textBox3.Text) / 64).ToString());
+                textBox2.Text = ((Convert.ToInt32(textBox3.Text) % 64).ToString());
+
+                textBox4.Text = ((Convert.ToInt32(textBox3.Text) / 576).ToString());
+                textBox5.Text = ((Convert.ToInt32(textBox3.Text) % 576 / 9).ToString());
+                textBox6.Text = ((Convert.ToInt32(textBox3.Text) % 9).ToString());
 
             }
         }
@@ -109,9 +142,11 @@ namespace Diamond_Block_Converter
             }
         }
 
-        private void textBox2_KeyDown(object sender, KeyEventArgs e)
+
+        private void textBox3_KeyDown(object sender, KeyEventArgs e)
         {
-             if  (e.KeyValue == (char)Keys.Back)
+            //да я написал через иф елсс. что ты мне сделаешь?
+            if (e.KeyValue == (char)Keys.Back)
             {
                 if (textBox3.Text.Length > 1)
                 {
@@ -123,12 +158,14 @@ namespace Diamond_Block_Converter
                         textBox3.Text = textBox3.Text + text[i];
                     }
                 }
-                else if (textBox3.Text.Length == 1)
+                else
                 {
                     textBox3.Clear();
                     textBox3.Text = "0";
                 }
             }
         }
+
+
     }
 }

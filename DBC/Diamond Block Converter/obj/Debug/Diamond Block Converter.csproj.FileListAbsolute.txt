@@ -8,3 +8,4 @@ C:\Users\defom\source\repos\DBC\Diamond Block Converter\obj\Debug\Diamond Block 
 C:\Users\defom\source\repos\DBC\Diamond Block Converter\obj\Debug\Diamond Block Converter.csproj.CoreCompileInputs.cache
 C:\Users\defom\source\repos\DBC\Diamond Block Converter\obj\Debug\Diamond Block Converter.exe
 C:\Users\defom\source\repos\DBC\Diamond Block Converter\obj\Debug\Diamond Block Converter.pdb
+C:\Users\defom\source\repos\DBC\Diamond Block Converter\obj\Debug\Diamond_Block_Converter.Form2.resources
