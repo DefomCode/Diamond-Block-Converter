@@ -30,20 +30,16 @@ namespace Diamond_Block_Converter
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.label2 = new System.Windows.Forms.Label();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             this.label3 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
             this.button11 = new System.Windows.Forms.Button();
             this.button13 = new System.Windows.Forms.Button();
             this.button14 = new System.Windows.Forms.Button();
@@ -58,30 +54,24 @@ namespace Diamond_Block_Converter
             this.button23 = new System.Windows.Forms.Button();
             this.button24 = new System.Windows.Forms.Button();
             this.button25 = new System.Windows.Forms.Button();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Minecraft Title Cyrillic", 12F);
-            this.label2.Location = new System.Drawing.Point(238, 9);
-            this.label2.Name = "label2";
-            this.label2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label2.Size = new System.Drawing.Size(225, 23);
-            this.label2.TabIndex = 22;
-            this.label2.Text = "DBC Calculator";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Minecraft Title Cyrillic", 16F);
-            this.label3.Location = new System.Drawing.Point(345, 259);
+            this.label3.Location = new System.Drawing.Point(345, 264);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(78, 32);
             this.label3.TabIndex = 23;
@@ -90,7 +80,7 @@ namespace Diamond_Block_Converter
             // pictureBox3
             // 
             this.pictureBox3.Image = global::Diamond_Block_Converter.Properties.Resources.Arrow;
-            this.pictureBox3.Location = new System.Drawing.Point(209, 100);
+            this.pictureBox3.Location = new System.Drawing.Point(209, 135);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(128, 64);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -102,39 +92,19 @@ namespace Diamond_Block_Converter
             this.notifyIcon1.Text = "notifyIcon1";
             this.notifyIcon1.Visible = true;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Diamond_Block_Converter.Properties.Resources.Diamond_Block64;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 30);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(64, 64);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 32;
-            this.pictureBox1.TabStop = false;
-            // 
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Diamond_Block_Converter.Properties.Resources.Block_of_Diamond;
-            this.pictureBox2.Location = new System.Drawing.Point(12, 100);
+            this.pictureBox2.Location = new System.Drawing.Point(22, 135);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(64, 64);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 33;
             this.pictureBox2.TabStop = false;
             // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = global::Diamond_Block_Converter.Properties.Resources.Diamond;
-            this.pictureBox6.Location = new System.Drawing.Point(12, 170);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(64, 64);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox6.TabIndex = 35;
-            this.pictureBox6.TabStop = false;
-            // 
             // pictureBox5
             // 
-            this.pictureBox5.Image = global::Diamond_Block_Converter.Properties.Resources.Diamond64;
+            this.pictureBox5.Image = global::Diamond_Block_Converter.Properties.Resources.Diamond_Block64;
             this.pictureBox5.Location = new System.Drawing.Point(351, 100);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(64, 64);
@@ -164,7 +134,7 @@ namespace Diamond_Block_Converter
             // 
             // pictureBox7
             // 
-            this.pictureBox7.Image = global::Diamond_Block_Converter.Properties.Resources.Diamond;
+            this.pictureBox7.Image = global::Diamond_Block_Converter.Properties.Resources.Block_of_Diamond;
             this.pictureBox7.Location = new System.Drawing.Point(351, 170);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(64, 64);
@@ -172,45 +142,26 @@ namespace Diamond_Block_Converter
             this.pictureBox7.TabIndex = 39;
             this.pictureBox7.TabStop = false;
             // 
-            // textBox4
-            // 
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.textBox4.Location = new System.Drawing.Point(82, 53);
-            this.textBox4.MaxLength = 8;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(112, 26);
-            this.textBox4.TabIndex = 41;
-            this.textBox4.Text = "0";
-            // 
             // textBox5
             // 
             this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.textBox5.Location = new System.Drawing.Point(82, 123);
+            this.textBox5.Location = new System.Drawing.Point(92, 155);
             this.textBox5.MaxLength = 8;
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(112, 26);
             this.textBox5.TabIndex = 42;
             this.textBox5.Text = "0";
             // 
-            // textBox6
-            // 
-            this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.textBox6.Location = new System.Drawing.Point(82, 193);
-            this.textBox6.MaxLength = 8;
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(112, 26);
-            this.textBox6.TabIndex = 43;
-            this.textBox6.Text = "0";
-            // 
             // button11
             // 
             this.button11.Font = new System.Drawing.Font("Minecraft Title Cyrillic", 12F);
-            this.button11.Location = new System.Drawing.Point(469, 12);
+            this.button11.Location = new System.Drawing.Point(5, 5);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(64, 64);
             this.button11.TabIndex = 44;
             this.button11.Text = "8";
             this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // button13
             // 
@@ -344,12 +295,68 @@ namespace Diamond_Block_Converter
             this.button25.Text = "1";
             this.button25.UseVisualStyleBackColor = true;
             // 
+            // textBox3
+            // 
+            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.textBox3.Location = new System.Drawing.Point(421, 420);
+            this.textBox3.MaxLength = 8;
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(112, 26);
+            this.textBox3.TabIndex = 78;
+            this.textBox3.Text = "0";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Diamond_Block_Converter.Properties.Resources.Diamond;
+            this.pictureBox1.Location = new System.Drawing.Point(351, 399);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(64, 64);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 77;
+            this.pictureBox1.TabStop = false;
+            // 
+            // textBox4
+            // 
+            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.textBox4.Location = new System.Drawing.Point(421, 350);
+            this.textBox4.MaxLength = 8;
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(112, 26);
+            this.textBox4.TabIndex = 76;
+            this.textBox4.Text = "0";
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(351, 329);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(64, 64);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 75;
+            this.pictureBox4.TabStop = false;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Minecraft Title Cyrillic", 12F);
+            this.label2.Location = new System.Drawing.Point(75, 9);
+            this.label2.Name = "label2";
+            this.label2.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.label2.Size = new System.Drawing.Size(325, 23);
+            this.label2.TabIndex = 79;
+            this.label2.Text = "DBC Calculator ver. 1.0.";
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
             this.ClientSize = new System.Drawing.Size(544, 540);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.button13);
             this.Controls.Add(this.button14);
             this.Controls.Add(this.button15);
@@ -364,27 +371,23 @@ namespace Diamond_Block_Converter
             this.Controls.Add(this.button24);
             this.Controls.Add(this.button25);
             this.Controls.Add(this.button11);
-            this.Controls.Add(this.textBox6);
             this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.pictureBox3);
             this.Name = "Form2";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Diamond Block Converter";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -392,19 +395,14 @@ namespace Diamond_Block_Converter
 
         #endregion
         private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.NotifyIcon notifyIcon1;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.PictureBox pictureBox7;
-        private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Button button13;
         private System.Windows.Forms.Button button14;
@@ -419,6 +417,11 @@ namespace Diamond_Block_Converter
         private System.Windows.Forms.Button button23;
         private System.Windows.Forms.Button button24;
         private System.Windows.Forms.Button button25;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.Label label2;
     }
 }
 

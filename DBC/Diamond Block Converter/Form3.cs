@@ -17,9 +17,7 @@ namespace Diamond_Block_Converter
         {
             InitializeComponent();
 
-
-
-            ClientSize = new Size(560, 579);
+            // ClientSize = new Size(560, 510);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             this.Text = "Diamond Block Converter";
 
@@ -208,6 +206,17 @@ namespace Diamond_Block_Converter
             
         }
 
+        private void button11_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form Form2 = new Form2();
+            Form2.Show();
+            var parent = Application.OpenForms.Cast<Form1>().FirstOrDefault();
 
+            Height = parent.Height;
+            Width = parent.Width;
+            Left = parent.Left;
+            Top = parent.Top;
+        }
     }
 }

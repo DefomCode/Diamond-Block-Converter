@@ -15,6 +15,12 @@ namespace Diamond_Block_Converter
         public Form2()
         {
             InitializeComponent();
+            
+        }
+
+         void button11_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

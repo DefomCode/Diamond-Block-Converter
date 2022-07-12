@@ -60,6 +60,7 @@ namespace Diamond_Block_Converter
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
+            this.button11 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -207,7 +208,7 @@ namespace Diamond_Block_Converter
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Minecraft Title Cyrillic", 12F);
-            this.label2.Location = new System.Drawing.Point(18, 9);
+            this.label2.Location = new System.Drawing.Point(75, 5);
             this.label2.Name = "label2";
             this.label2.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.label2.Size = new System.Drawing.Size(325, 23);
@@ -372,12 +373,24 @@ namespace Diamond_Block_Converter
             this.textBox6.TabIndex = 43;
             this.textBox6.Text = "0";
             // 
+            // button11
+            // 
+            this.button11.Font = new System.Drawing.Font("Minecraft Title Cyrillic", 12F);
+            this.button11.Location = new System.Drawing.Point(5, 5);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(64, 64);
+            this.button11.TabIndex = 44;
+            this.button11.Text = "9";
+            this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
             this.ClientSize = new System.Drawing.Size(544, 540);
+            this.Controls.Add(this.button11);
             this.Controls.Add(this.textBox6);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.textBox4);
@@ -451,6 +464,7 @@ namespace Diamond_Block_Converter
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.Button button11;
     }
 }
 
